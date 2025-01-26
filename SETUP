@@ -5,5 +5,6 @@ mkdir ~/my_data/files
 
 cp ./user_init ~/my_data/user_init
 cp ./.tmux.conf ~/my_data/files/.tmux.conf
+cp -r ./.config ~my_data/files/.config
 
 chmod +x ~/my_data/user_init
