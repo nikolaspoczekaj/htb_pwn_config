@@ -1,0 +1,8 @@
+#!/bin/bash
+
+mkdir ~/my_data
+mkdir ~/my_data/files
+
+cp ./user_init ~/my_data/user_init
+
+chmod +x ~/my_data/user_init
