@@ -1,4 +1,6 @@
 #!/bin/bash
 
+mkdir ~/.config/nvim
+
 cp ~/my_data/files/.tmux.conf ~/.tmux.conf
-cp -r ~/my_data/files/.config ~/.config
+cp -r ~/my_data/files/.config/nvim/* ~/.config/nvim/*
