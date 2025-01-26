@@ -1,3 +1,4 @@
 #!/bin/bash
 
 cp ~/my_data/files/.tmux.conf ~/.tmux.conf
+cp -r ~/my_data/files/.config ~/.config
