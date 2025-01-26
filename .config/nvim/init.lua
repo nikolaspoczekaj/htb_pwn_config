@@ -30,6 +30,8 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "120"
 vim.opt.clipboard:append { 'unnamedplus' }
 vim.opt.fileformats = { "unix", "dos" }
+vim.opt.list = false
+vim.opt.guicursor = "n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50"
 
 vim.api.nvim_exec([[
   augroup YankHighlight
